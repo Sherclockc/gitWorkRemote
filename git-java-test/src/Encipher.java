@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
+//º”√‹
 public class Encipher {
     public Encipher(String str) {
         int length = str.length();
