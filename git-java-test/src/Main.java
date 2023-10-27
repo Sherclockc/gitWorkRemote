@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+    //这是一条随意添加的注释
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("================"+"\n欢迎使用密码管理系统"+"\n================");
