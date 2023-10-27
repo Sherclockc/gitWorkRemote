@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
-
+//Ω‚√‹
 public class Decode {
     public Decode(String str) {
         int length = str.length();
