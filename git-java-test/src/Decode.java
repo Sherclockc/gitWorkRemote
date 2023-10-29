@@ -20,6 +20,7 @@ public class Decode {
             n = alist.get(i);
             res += (char)n;
         }
+        System.out.println("我是聪明绝顶的蔡少婷");
         System.out.println("解密的结果是：" + res);
     }
 }
