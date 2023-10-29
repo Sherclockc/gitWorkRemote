@@ -4,32 +4,32 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("================"+"\n»¶Ó­Ê¹ÓÃÃÜÂë¹ÜÀíÏµÍ³"+"\n================");
-        System.out.println("ÇëÑ¡Ôñ²Ù×÷£º");
-        System.out.println("1.¼ÓÃÜ\n2.½âÃÜ\n3.ÅĞ¶ÏÃÜÂëÇ¿¶È\n4.ÃÜÂëÉú³É\n5.ÍË³ö\n");
-        System.out.print("ÇëÊäÈëÑ¡ÏîĞòºÅ£º");
+        System.out.println("================"+"\næ¬¢è¿ä½¿ç”¨å¯†ç ç®¡ç†ç³»ç»Ÿ"+"\n================");
+        System.out.println("è¯·é€‰æ‹©æ“ä½œï¼š");
+        System.out.println("1.åŠ å¯†\n2.è§£å¯†\n3.åˆ¤æ–­å¯†ç å¼ºåº¦\n4.å¯†ç ç”Ÿæˆ\n5.é€€å‡º\n");
+        System.out.print("è¯·è¾“å…¥é€‰é¡¹åºå·ï¼š");
         int operateNum = sc.nextInt();
-        System.out.println("\n================"+"\n»¶Ó­Ê¹ÓÃÃÜÂë¹ÜÀíÏµÍ³"+"\n================");
+        System.out.println("\n================"+"\næ¬¢è¿ä½¿ç”¨å¯†ç ç®¡ç†ç³»ç»Ÿ"+"\n================");
         switch (operateNum) {
             case 1:
-                System.out.print("ÇëÊäÈëÒª¼ÓÃÜµÄÊı×ÖÃÜÂë:");
+                System.out.print("è¯·è¾“å…¥è¦åŠ å¯†çš„æ•°å­—å¯†ç :");
                 String jiaMiStr = sc.next();
                 new Encipher(jiaMiStr);
                 break;
             case 2:
-                System.out.print("ÇëÊäÈëÒª½âÃÜµÄÊı×ÖÃÜÂë:");
+                System.out.print("è¯·è¾“å…¥è¦è§£å¯†çš„æ•°å­—å¯†ç :");
                 String jieMiStr = sc.next();
                 new Decode(jieMiStr);
                 break;
-//            case 3:
-//                System.out.print("ÇëÊäÈëÒª½øĞĞÅĞ¶ÏµÄÃÜÂë:");
-//                String panDuanStr = sc.next();
-//                new PasswordStrength(panDuanStr);
-//                break;
-//            case 4:
-//                System.out.print("ÇëÊäÈëĞèÒªÉú³ÉÃÜÂëµÄ³¤¶È:");
-//                int length = sc.nextInt();
-//                new getRandomPwd(length);
+           case 3:
+               System.out.print("è¯·è¾“å…¥è¦è¿›è¡Œåˆ¤æ–­çš„å¯†ç :");
+               String panDuanStr = sc.next();
+               new PasswordStrength(panDuanStr);
+               break;
+           case 4:
+               System.out.print("è¯·è¾“å…¥éœ€è¦ç”Ÿæˆå¯†ç çš„é•¿åº¦:");
+               int length = sc.nextInt();
+               new getRandomPwd(length);
             default:
                 break;
         }
